@@ -1,0 +1,12 @@
+.whale {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  animation: swim 5s linear infinite;
+}
+
+@keyframes swim {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(80vw); }
+  100% { transform: translateX(0); }
+}
